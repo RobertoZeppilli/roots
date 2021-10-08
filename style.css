@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: .65rem;
+}
+
+#canvas {
+    /* background-color: black; */
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    /* background-color: red; */
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font: italic small-caps bold 4rem 'Poppins', serif;
+
+}
