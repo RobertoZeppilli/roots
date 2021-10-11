@@ -1,15 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <canvas id="canvas"></canvas>
-    <h1>I'm a web developer</h1>
+    <div id="container">
+        <div class="none" id="box">
+            <p class="message">Colora la pagina per conoscermi meglio!</p>
+        </div>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/roberto-zeppilli-6594b4218/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/RobertoZeppilli" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <h1 class="name">
+            <span id="r">R</span>
+            <span id="z">Z</span>
+        </h1>
+        <div class="none about" id="about-page">
+            <h2>Su Di Me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem vitae delectus, laborum fuga
+                similique, cupiditate explicabo, est enim tenetur deleniti voluptatum accusantium earum quos in quis
+                error minima ratione. Modi qui delectus accusantium velit facilis corporis, eum voluptate aliquam
+                architecto, deserunt nihil. Maxime, eligendi illo at consequuntur quam in? Quia.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam explicabo neque eius iste commodi nulla
+                consequatur fuga vitae itaque cum tempora architecto optio odio repellendus, numquam, nemo minima nihil
+                reiciendis officia doloremque iure porro laboriosam. Quae nobis, pariatur molestiae omnis modi dolorum
+                odio perspiciatis aliquid dicta quam atque magnam rerum quisquam fugiat vitae consectetur explicabo
+                soluta suscipit! Dolorem error suscipit aliquam magni ducimus? Corrupti, amet dignissimos non cum eius
+                natus vero praesentium officiis, voluptate numquam debitis mollitia, itaque ab hic. Et delectus
+                laboriosam cupiditate deleniti fugiat ut omnis sed eligendi sequi culpa, ipsum odio reprehenderit nulla
+                vero dolores iusto quibusdam!
+            </p>
+            <i class="close fas fa-times"></i>
+        </div>
+        <div class="none works" id="works-page">
+            <!-- <h2>works</h2> -->
+            <div id="carousel" class="carousel">
+
+            </div>
+            <i class="close fas fa-times"></i>
+        </div>
+        <div class="none skills" id="skills-page">
+            Skills
+            <i class="close fas fa-times"></i>
+        </div>
+        <button class="btn" id="draw">disegna</button>
+        <div class="buttons">
+            <button class="btn" id="about">su di me</button>
+            <button class="btn" id="skills">skills</button>
+            <button class="btn" id="works">progetti</button>
+        </div>
+        <!-- <button class="btn" id="skills">skills</button> -->
+    </div>
+
+
     <script src="script.js"></script>
 </body>
+
 </html>
